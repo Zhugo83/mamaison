@@ -26,15 +26,34 @@ a{
     margin: auto;
 }
 
+.image100{
+    width: 100%;
+}
+
 .LINKBUTTON{
-border: solid 1px;
-background-color: #fff;
-padding: 13px 25px;
+    border: solid 1px;
+    background-color: #fff;
+    padding: 13px 25px;
+    color: #27697C;
 }
 
 .LINKBUTTON:hover{
     border: solid 1px #fff;
     background-color: #27697CE3;
+    color: #fff;
+}
+
+.LINKBUTTON2{
+    border: solid 1px;
+    background-color: #27697CE3;
+    padding: 13px 25px;
+    color: #fff;
+    }
+    
+.LINKBUTTON2:hover{
+    color: #27697CE3;
+    border: solid 1px #27697CE3;
+    background-color: #fff;
 }
 /* General END */
 
@@ -108,10 +127,48 @@ main section:nth-child(1) div p{
 }
 
 main section:nth-child(1) div a{
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+/* Main Section1 END */
+
+/* Main Section2 STRART */
+main section:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    padding: 70px 0px;
+}
+
+main section:nth-child(2) div h2{
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 20px;
     color: #27697C;
+    padding: 50px 0px 0px 10px;
 }
 
-main section:nth-child(1) div a:hover{
-    color: #fff;
+main section:nth-child(2) div h3{
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0px 0px 0px 10px;
 }
 
+main section:nth-child(2) div p{
+    font-family: var(--open-sans);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 25px 0px 25px 70px; /* Waiting for HR line then do 25px 0px*/
+    word-spacing: 10px;
+    line-height: 28px;
+}
+
+main section:nth-child(2) div a{
+    font-family: var(--open-sans);
+    font-size: 16px;
+    font-weight: 400;
+    margin : 25px 0px 25px 70px; /* Waiting for HR line then delete it.*/
+}
