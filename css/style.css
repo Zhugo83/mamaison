@@ -64,7 +64,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 header nav ul{
@@ -72,13 +71,17 @@ header nav ul{
 }
 
 header nav ul li a{
-    padding: 50px;
+    padding: 42px 50px;
     font-family: var(--open-sans);
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     color: #000;
     transition:all 0.2s;
+}
+
+#ImBurger{
+    display: none;
 }
 
 header nav ul li a:hover{
@@ -132,7 +135,6 @@ main section:nth-child(1) div a{
     font-family: var(--roboto);
     font-size: 16px;
     font-weight: 500;
-
 }
 /* Main Section1 END */
 
@@ -157,6 +159,7 @@ main section:nth-child(2) div:first-child h3{
     font-weight: 700;
     font-size: 30px;
     padding: 0px 0px 0px 10px;
+    text-transform: uppercase;
 }
 
 main section:nth-child(2) div:first-child p{
@@ -243,6 +246,12 @@ main section:nth-child(3) div article:last-child p{
     font-weight: 400;
     color: #fff;
     padding: 15px 0px;
+}
+
+main section:nth-child(3) div a{
+    font-family: var(--open-sans);
+    font-size: 16px;
+    font-weight: 400;
 }
 /* Main Section3 END */
 
@@ -337,7 +346,7 @@ main section:nth-child(5) div form input[type="submit"]{
     background-color: #fff;
     padding: 13px 25px;
     color: #27697C;
-    margin: auto;
+    justify-self: start;
 }
 
 main section:nth-child(5) div form input[type="submit"]:hover{
@@ -379,3 +388,11 @@ footer > p > a:hover{
     font-size: 16px;
 }
 
+@media screen and (max-width: 767px){
+    #ImBurger{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+}
