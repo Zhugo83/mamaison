@@ -35,6 +35,7 @@ a{
     background-color: #fff;
     padding: 13px 25px;
     color: #27697C;
+    margin: 15px 0px;
 }
 
 .LINKBUTTON:hover{
@@ -48,6 +49,7 @@ a{
     background-color: #27697CE3;
     padding: 13px 25px;
     color: #fff;
+    margin: 15px 0px;
     }
     
 .LINKBUTTON2:hover{
@@ -242,3 +244,41 @@ main section:nth-child(3) div article:last-child p{
     color: #fff;
     padding: 15px 0px;
 }
+/* Main Section3 END */
+
+/* Main Section4 START */
+main section:nth-child(4){
+    text-align: center;
+    padding: 150px 0px;
+}
+
+main section:nth-child(4) h2{
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-weight: 600;
+    color:#27697C;
+}
+
+main section:nth-child(4) h3{
+    font-family: var(--montserrat);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main section:nth-child(4) div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+main section:nth-child(4) div article p,
+main section:nth-child(4) a{
+    font-family: var(--open-sans);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Main Section4 END */
