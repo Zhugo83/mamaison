@@ -35,8 +35,9 @@
             <div>
                 <h2>Rueil Malmaison</h2>
                 <h3>Location de bureaux professionnels</h3>
-                <!-- ADD HR THIS IS A PAIN -->
-                <p>Foncière Pagerie Malmaison est une entreprise de location 
+                <!-- I STILL HATE THIS HR -->
+                <article>
+                    <hr><p>Foncière Pagerie Malmaison est une entreprise de location 
                         de bureaux professionnels située 16 avenue des Chateaupieds 
                         92500 RUEIL-MALMAISON. Nos bureaux sont conçus pour répondre 
                         aux besoins des entreprises modernes et offrir un environnement 
@@ -47,7 +48,9 @@
                         entreprises ambitieuses et nous invitons tous les professionnels 
                         à venir visiter nos locaux pour découvrir l’expérience Foncière 
                         Pagerie Malmaison.</p>
+                </article>
                 <a class="LINKBUTTON2" href="#">En savoir plus sur Rueil Malmaison</a>
+                
             </div>
             <img class="image100" src="img/Bureaux.jpeg" alt="Image bureaux">
 
@@ -113,14 +116,14 @@
                 <h2>Nous contacter</h2>
                 <h3>Pour une question ou une visite</h3>
                 <form action="">
-                    <input type="text" placeholder="Votre Nom">
-                    <input type="text" placeholder="Votre Prénom">
-                    <input class="lol" type="text" placeholder="Votre Entreprise">
-                    <input type="email" placeholder="Votre email">
-                    <input type="number" placeholder="Votre Téléphone">
-                    <textarea class="lol" name="" id="" cols="10" rows="3" placeholder="Message"></textarea>
+                    <input type="text" id="name" placeholder="Votre Nom">
+                    <input type="text" id="lastname" placeholder="Votre Prénom">
+                    <input class="lol" id="entreprise" type="text" placeholder="Votre Entreprise">
+                    <input type="email" id="email" placeholder="Votre email">
+                    <input type="number" id="number" placeholder="Votre Téléphone">
+                    <textarea class="lol" id="message" cols="10" rows="3" placeholder="Message"></textarea>
                     <label for="agreed"><input id="agreed" type="checkbox"> En remplissant ce formulaire, je consens à ce que les informations que j'ai fournies soient envoyées par e-mail exclusivement à Foncière Pagerie Malmaison, destinataire unique, dans le but d'être contacté au sujet de ma demande. Je suis conscient(e) que j'ai le droit de modifier, d'accéder et de supprimer mes informations personnelles.</label>
-                    <input type="submit">
+                    <input id="envoyer" type="submit">
                 </form>
             </div>
             
