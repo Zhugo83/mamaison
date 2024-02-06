@@ -442,4 +442,8 @@ main section:nth-child(5) div form input
         grid-column: 1/3; 
     }
     /* grid-column 🔥🔥🔥 */
+
+    main section:nth-child(2) div:first-child a{
+        margin: 15px;
+    }
 }
